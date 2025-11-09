@@ -9,7 +9,9 @@ class Calculator:
     # PLACEHOLDER METHODS - Empty or with basic implementation
     # Student 1: Addition function
     def add(self, a, b):
-        # TODO: Implement addition functionality
+        sum_result = a + b
+        self.result = sum_result # Stores the result in the instance attribute
+        return sum_result
         raise NotImplementedError("Addition function not implemented yet")
     
     # Student 2: Subtraction function
