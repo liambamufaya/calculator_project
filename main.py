@@ -1,4 +1,4 @@
-# calculator.py - INITIAL MAIN BRANCH (Before any merges)
+git # calculator.py - INITIAL MAIN BRANCH (Before any merges)
 class Calculator:
     def __init__(self):
         # Initialize basic attributes that all features might need
@@ -19,7 +19,7 @@ class Calculator:
     
     # Student 3: Multiplication function
     def multiply(self, a, b):
-        # TODO: Implement multiplication functionality
+    
         raise NotImplementedError("Multiplication function not implemented yet")
     
     # Student 4: Division function
