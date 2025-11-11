@@ -14,8 +14,15 @@ class Calculator:
     
     # Student 2: Subtraction function
     def subtract(self, a, b):
-        # TODO: Implement subtraction functionality  
-        raise NotImplementedError("Subtraction function not implemented yet")
+        try:
+            result = a - b
+            self.result = result
+            self.add_to_history(f"{a} - {b} = {result}")
+            return result
+        except TypeError:
+            error_message = "Error: Both arguments must be numbers."
+            self.add_to_history(f"Error: Subtraction failed - {error_message}")
+            return error_message
     
     # Student 3: Multiplication function
     def multiply(self, a, b):
